@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <title>CSS</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <link 
+    rel="icon" 
+    type="image/x-icon" 
+    href="images/favicon.jpg"
+  >
+  <link 
+    rel="stylesheet" 
+    type="text/css" 
+    href="styles/style.css" 
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link 
+    rel="preconnect" 
+    href="https://fonts.gstatic.com" 
+    crossorigin
+  >
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Lato&display=swap" 
+    rel="stylesheet"
+  >
+  <script src="account-created.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__banner">
+      FREE GROUND SHIPPING ON ALL ORDERS OVER $100
+    </div>
+
+    <nav class="header__navigation">
+      <ul class="text-links">
+        <li><a class="text-links__link" href="men">MEN</a></li>
+        <li><a class="text-links__link" href="women">WOMEN</a></li>
+        <li><a class="text-links__link" href="our-story">OUR STORY</a></li>
+        <li><a class="text-links__link" href="stores">STORES</a></li>
+      </ul>
+      <ul class="image-links">
+        <li class="image-links__item">
+          <a class="image-links__link" href="search">
+            <img class="image-links__image" src="images/header/search.svg" alt="Search">
+            <div class="image-links__text">Search</div>
+          </a>
+        </li>
+        <li class="image-links__item">
+          <a class="image-links__link" href="live-assistant">
+            <img class="image-links__image" src="images/header/chats.svg" alt="Chats">
+            <div class="image-links__text">Live assistant</div>
+          </a>
+        </li>
+        <li class="image-links__item">
+          <a class="image-links__link" href="my-account">
+            <img class="image-links__image" src="images/header/user.svg" alt="User">
+            <div class="image-links__text">My account</div>
+          </a>
+        </li>
+        <li class="image-links__item">
+          <a class="image-links__link" href="my-account">
+            <img class="image-links__image" src="images/header/heart-active.svg" alt="Active heart">
+            <div class="image-links__text">Wishlist</div>
+          </a>
+        </li>
+        <li class="image-links__item image-links__item--last">
+          <a class="image-links__link" href="wishlist">
+            <img class="image-links__image" src="images/header/cart.svg" alt="Cart">
+            <div class="image-links__text">Cart</div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="breadcrumbs main__breadcrumbs">
+      <div class="breadcrumbs__parent">Home</div>
+      <div class="breadcrumbs__separator">/</div>
+      <div class="breadcrumbs__current">My account</div>
+    </section>
+
+    <div class="login main__login">
+      <section class="sign-in">
+        <p class="login__title">Log in</p>
+
+        <form class="form" method="post">
+          <label class="input__label" for="login">Login:</label>
+
+          <input 
+            id="login" 
+            class="input sign-in__input" 
+            type="text" 
+            placeholder="Login"
+            required
+          >
+
+          <div class="sign-in__password">
+            <label class="input__label" for="password">Password:</label>
+
+            <input 
+              id="password" 
+              class="input sign-in__input sign-in__input--password" 
+              type="password"
+              placeholder="Password"
+              required
+            >
+
+            <button type="button" class="sign-in__eye">
+              <img src="images/main/eye-slash.svg" alt="Eye slash" />
+            </button>
+          </div>
+
+          <button type="submit" class="button">
+            Login
+          </button>
+
+          <a href="forgot" class="sign-in__forgot">
+            Forgot password?
+          </a>
+        </form>
+      </section>
+      <section class="sign-up">
+        <p class="login__title sign-up__title">
+          New customer? Create an account!
+        </p>
+
+        <div class="sign-up__profits">
+          <div class="sign-up__profit">
+            <img 
+              src="images/main/clock-refreshed.svg" 
+              alt="Clock refreshed" 
+            />
+
+            <p class="sign-up__profit-text">Order tracking and history</p>
+          </div>
+          <div class="sign-up__profit">
+            <img src="images/main/refresh.svg" alt="Refresh arrow" />
+
+            <p class="sign-up__profit-text">Easy returns</p>
+          </div>
+
+          <div class="sign-up__profit">
+            <img src="images/main/marker.svg" alt="Map marker" />
+
+            <p class="sign-up__profit-text">Manage your addresses</p>
+          </div>
+
+          <div class="sign-up__profit">
+            <img src="images/main/heart.svg" alt="Heart" />
+
+            <p class="sign-up__profit-text">Save your wishlists for later</p>
+          </div>
+        </div>
+
+        <button class="button button--fixed sign-up__create">
+          Create an account
+        </button>
+      </section>
+    </div>
+
+    <section class="newsletter">
+      <p class="newsletter__prompt">
+        Want exclusive access to new products, promotions and events from Lucchese?
+        Sign up and be the first to know!
+      </p>
+
+      <form class="form" method="post">
+        <label class="input__label" for="e-mail">E-mail:</label>
+        <input 
+          id="e-mail"
+          class="input newsletter__e-mail" 
+          type="email"
+          placeholder="E-mail"
+          required
+        >
+        <button class="button button--with-image" type="submit">
+          <img src="images/main/envelope.svg" alt="Envelope"/>
+          Submit
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><p class="footer__text">Footer</p></footer>
+
+  <dialog class="account-created">
+    <p class="account-created__announcement">Account created.</p>
+
+    <button type="button" class="account-created__ok">OK</button>
+  </dialog>
+</body>
+</html>

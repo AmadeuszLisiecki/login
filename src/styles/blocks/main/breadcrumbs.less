@@ -1,0 +1,23 @@
+.breadcrumbs {
+  height: @breadcrumbs-height;
+  line-height: @breadcrumbs-height;
+
+  &__parent, &__separator, &__current {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__parent {
+    width: 48px;
+  }
+
+  &__separator {
+    color: @light-gray;
+  }
+
+  &__current {
+    width: 91px;
+    text-align: center;
+  }
+}
