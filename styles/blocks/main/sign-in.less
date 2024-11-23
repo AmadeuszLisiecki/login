@@ -1,0 +1,36 @@
+.sign-in {
+  width: 326px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__input {
+    margin-bottom: 9px;
+
+    &--password {
+      padding-right: 40px;
+    }
+  }
+
+  &__password {
+    position: relative;
+  }
+
+  &__eye {
+    position: absolute;
+    left: 265px;
+    transform: translate(50%, 50%);
+  }
+
+  &__forgot {
+    color: @navy;
+    text-align: center;
+    text-decoration: none;
+    line-height: @control-height;
+    text-transform: uppercase;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
