@@ -67,10 +67,7 @@
   padding: 0 calc(100vw / 1920 * 168);
 }
 .main__login {
-  height: 376px;
   margin-bottom: 80px;
-  box-sizing: border-box;
-  padding: 0 calc(100vw / 1920 * 250);
 }
 .breadcrumbs {
   height: 48px;
@@ -137,7 +134,7 @@
 .login {
   width: 100%;
   display: flex;
-  gap: 100px;
+  gap: 24px;
   justify-content: center;
 }
 .login__title {
@@ -147,10 +144,11 @@
   margin-bottom: 16px;
 }
 .sign-in {
-  width: 326px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
+  padding: 0 calc(100vw / 1920 * 160);
 }
 .sign-in__input {
   margin-bottom: 9px;
@@ -190,17 +188,17 @@
   align-items: center;
   width: calc(646 * 100vw / 1920);
   min-width: 350px;
-  padding: 0 10px;
+  padding-block: 24px;
   box-sizing: border-box;
 }
 .sign-up__title {
-  margin: 30px 0;
+  margin-bottom: 30px;
 }
 .sign-up__profits {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 25px;
+  gap: 30px;
   margin-left: 5px;
 }
 .sign-up__profit {
@@ -263,7 +261,6 @@ html {
 /**
  * Remove default margin.
  */
-body,
 p,
 form {
   margin: 0;
