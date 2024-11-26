@@ -193,6 +193,7 @@
 }
 .sign-up__title {
   margin-bottom: 30px;
+  text-align: center;
 }
 .sign-up__profits {
   display: flex;
