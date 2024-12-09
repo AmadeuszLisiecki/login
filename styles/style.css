@@ -174,15 +174,16 @@
 .sign-in__forgot:hover {
   color: blue;
 }
-.account-created {
+.dialog {
   padding-block: 2em;
 }
-.account-created__announcement {
-  margin-bottom: 30px;
+.dialog__message {
+  width: 200px;
+  margin-bottom: 35px;
   text-align: center;
   font-size: 24px;
 }
-.account-created__ok {
+.dialog__ok {
   width: 220px;
 }
 .sign-up {

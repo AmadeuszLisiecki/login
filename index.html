@@ -23,7 +23,7 @@
     href="https://fonts.googleapis.com/css2?family=Lato&display=swap" 
     rel="stylesheet"
   >
-  <script src="account-created.js" defer></script>
+  <script src="dialog.js" defer></script>
 </head>
 <body>
   <header class="header">
@@ -184,10 +184,15 @@
 
   <footer class="footer"><p class="footer__text">Footer</p></footer>
 
-  <dialog class="account-created">
-    <p class="account-created__announcement">Account created.</p>
+  <dialog class="dialog">
+    <p class="dialog__message">Account created.</p>
 
-    <button type="button" class="account-created__ok button">OK</button>
+    <button type="button" class="dialog__ok button">OK</button>
+  </dialog>
+  <dialog class="dialog">
+    <p class="dialog__message">Form submited.</p>
+
+    <button type="button" class="dialog__ok button">OK</button>
   </dialog>
 </body>
 </html>
